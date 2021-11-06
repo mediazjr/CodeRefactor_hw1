@@ -8,6 +8,17 @@ body {
     background-color: #d9dcd6;
 }
 
+/* moved up to be in order */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* moved up to be in order */
 .hero {
     height: 800px;
     width: 100%;
@@ -22,6 +33,7 @@ body {
     margin-right: 25px;
 }
 
+/* changed from class to id */
 #header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -38,6 +50,7 @@ body {
     color: #d9dcd6;
 }
 
+/* i tried removing this div and the corresponding one in the html but it broke things a bit so i left it as is */
 #header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -55,16 +68,8 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-p {
-    font-size: 16px;
-}
-
-
+/* changed from class to id */
 #float-right {
     float: right;
     margin-left: 25px;
